@@ -18,14 +18,33 @@
     
         <h2><button><a href="https://www.friv.com/">CLICK AQUÍ PARA JUGAR</a></button></h2> 
 
-        <form>
+        <!--Este es mi formulario-->
+        <form action="index2.html">
+
+            <!--Este es el titulo de mi formulario-->
             <h1 style="color: green">Mi primer formulario</h1>
             <label for="codigo">Código de estudiante:</label>
             <input type="text" name="codigo" id="codigo" placeholder="Ingrese el código"><br><br>
+
             <label for="nombre">Nombre de estudiante:</label>
             <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"><br><br>
-            <label for="edad">Edad del estudiante:</label>
+
+            <label for="otro">Edad del estudiante:</label>
             <input type="text" name="edad" id="edad" placeholder="Ingrese su edad"><br><br>
+
+            <h1>Escoge tu tipo de documento</h1>
+            <label for="dni">DNI</label>
+            <input type="radio" id="dni" name="tipo_documento"> <br>
+
+            <label for="pasaporte">Pasaporte</label>
+            <input type="radio" id="pasaporte" name="tipo_documento"> <br>
+
+            <label for="otro">Otro</label>
+            <input type="radio" id="otro" name="tipo_documento"> <br>
+
+            <input type="submit" value="Grabar">
+
+        </form>
         </form>
 </body>
 </html>
